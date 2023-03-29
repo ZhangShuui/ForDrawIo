@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T06:17:59.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" version="21.1.1" etag="WQmekyNucLGd3BlgwYPH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T03:25:56.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="wfNOLT7SJLiOl3G7ohc6" version="21.1.1" type="github">
   <diagram name="第 1 页" id="C2llVJUo4KI2Dm0yCDdT">
-    <mxGraphModel>
+    <mxGraphModel dx="608" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-3" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-6" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="485" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-8" value="注册用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-11" value="注销用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="340" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-12" value="查询机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="620" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-13" value="安排航班" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-14" value="登录用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="430" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EG13G6zJD2KqBIsS3SEV-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="470" as="sourcePoint" />
+            <mxPoint x="360" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EG13G6zJD2KqBIsS3SEV-3" target="EG13G6zJD2KqBIsS3SEV-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="510" as="sourcePoint" />
+            <mxPoint x="380" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EG13G6zJD2KqBIsS3SEV-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339" y="529.5" as="sourcePoint" />
+            <mxPoint x="369" y="529.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EG13G6zJD2KqBIsS3SEV-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="590" as="sourcePoint" />
+            <mxPoint x="370" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-20" value="打印机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="710" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-21" value="交款机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="800" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EG13G6zJD2KqBIsS3SEV-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="600" as="sourcePoint" />
+            <mxPoint x="340" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EG13G6zJD2KqBIsS3SEV-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="610" as="sourcePoint" />
+            <mxPoint x="310" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-24" value="注册用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="555" as="sourcePoint" />
+            <mxPoint x="370" y="554.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-26" value="注册用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="250" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-27" value="登录系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="430" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-28" value="注册用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="525" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
