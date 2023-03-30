@@ -1,9 +1,212 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T07:59:30.558Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" version="21.1.1" etag="jIwafMYcFxQHcWZMsyC2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T07:47:51.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="UOenPPPBlQqpe4UEgjKO" version="21.1.2" type="github">
   <diagram name="第 1 页" id="cm3VjTM__6NFXu4wPpwm">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-3" value="登录系统" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="224" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-5" value="密码错误" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="244" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-5" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="424" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-5" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-14" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-17" value="找回密码" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-18" value="失败" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-17" parent="1" target="MrwXvHuO-7o8IFlikNi2-24">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="680" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-19" value="成功" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-17" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="386" />
+              <mxPoint x="330" y="386" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="500" y="310" as="targetPoint" />
+            <mxPoint x="420" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;strokeColor=#ff0000;rounded=0;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MrwXvHuO-7o8IFlikNi2-14">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="targetPoint" />
+            <mxPoint x="430" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="425" y="290" />
+              <mxPoint x="470" y="290" />
+              <mxPoint x="470" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-22" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="323" y="480" as="targetPoint" />
+            <mxPoint x="323" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="323" y="440" />
+              <mxPoint x="323" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MrwXvHuO-7o8IFlikNi2-14" target="MrwXvHuO-7o8IFlikNi2-24">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="690" y="270" as="targetPoint" />
+            <mxPoint x="430" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="425" y="300" />
+              <mxPoint x="490" y="300" />
+              <mxPoint x="490" y="240" />
+              <mxPoint x="695" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="480" as="targetPoint" />
+            <mxPoint x="313" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="313" y="450" />
+              <mxPoint x="150" y="450" />
+              <mxPoint x="150" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="480" as="targetPoint" />
+            <mxPoint x="330" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="450" />
+              <mxPoint x="520" y="450" />
+              <mxPoint x="520" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-28" value="查询机票" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-28" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="580" />
+              <mxPoint x="150" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-31" value="机票退款" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-31" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-38" value="打印机票" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-38" parent="1" target="MrwXvHuO-7o8IFlikNi2-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="740" />
+              <mxPoint x="680" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-41" value="成功" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-42" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-41" parent="1" target="MrwXvHuO-7o8IFlikNi2-28">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="240" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="610" />
+              <mxPoint x="240" y="500" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-43" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-41" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="150" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-44" value="成功" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-45" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-44" parent="1" target="MrwXvHuO-7o8IFlikNi2-31">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="470" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="610" />
+              <mxPoint x="420" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-46" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-44" parent="1" target="MrwXvHuO-7o8IFlikNi2-24">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="670" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="750" />
+              <mxPoint x="680" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-47" value="预定机票" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="695" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MrwXvHuO-7o8IFlikNi2-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="MrwXvHuO-7o8IFlikNi2-47" parent="1" target="MrwXvHuO-7o8IFlikNi2-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="820" />
+              <mxPoint x="695" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
