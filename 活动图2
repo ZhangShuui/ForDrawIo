@@ -1,9 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T07:49:00.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" version="21.1.2" etag="ko4OZytRGWFA7TQcqJdR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T07:53:57.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="pSyOyMFNfgETzilvUXjO" version="21.1.2" type="github">
   <diagram name="第 1 页" id="_fM_p4FBExq9URYz-Y0f">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ojrDWV--XNEbMvh2RffD-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ojrDWV--XNEbMvh2RffD-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-7" value="登录系统" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="224" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="ojrDWV--XNEbMvh2RffD-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-9" value="密码错误" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="244" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-10" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="ojrDWV--XNEbMvh2RffD-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="424" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="ojrDWV--XNEbMvh2RffD-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-12" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="420" y="280" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-13" value="找回密码" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-14" value="成功" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="ojrDWV--XNEbMvh2RffD-13">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="386" />
+              <mxPoint x="330" y="386" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="500" y="310" as="targetPoint" />
+            <mxPoint x="420" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;strokeColor=#ff0000;rounded=0;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ojrDWV--XNEbMvh2RffD-12">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="targetPoint" />
+            <mxPoint x="430" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="425" y="290" />
+              <mxPoint x="470" y="290" />
+              <mxPoint x="470" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojrDWV--XNEbMvh2RffD-17" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="60" height="10" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
