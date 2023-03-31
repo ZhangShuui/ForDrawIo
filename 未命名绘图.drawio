@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T07:48:08.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="75eH_ArVdvLUxjlG0vx7" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T11:16:39.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="UgBGC3g0lM4FKnbJOFX5" version="21.1.2" type="github">
   <diagram name="第 1 页" id="C2llVJUo4KI2Dm0yCDdT">
-    <mxGraphModel dx="1290" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
             <mxPoint x="760" y="554.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y6OFLw9vU7j-9iI98Z35-22" value="注销用户" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="y6OFLw9vU7j-9iI98Z35-22" value="修改用户信息" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="340" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="y6OFLw9vU7j-9iI98Z35-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -161,13 +161,49 @@
             <mxPoint x="760" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K-e-QyN7yzINLSVWqKfr-1" value="机票退款" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K-e-QyN7yzINLSVWqKfr-1" value="机票退款" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="369" y="880" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K-e-QyN7yzINLSVWqKfr-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="K-e-QyN7yzINLSVWqKfr-1">
+        <mxCell id="K-e-QyN7yzINLSVWqKfr-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="K-e-QyN7yzINLSVWqKfr-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="630" as="sourcePoint" />
             <mxPoint x="360" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-1" value="安排航班" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="620" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-2" value="安排航班" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="710" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="kI8QiPe1e6Zq5gu9wakf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="620" as="sourcePoint" />
+            <mxPoint x="970" y="540" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-4" value="查询用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="710" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-6" value="查询机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="800" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="640" as="sourcePoint" />
+            <mxPoint x="760" y="830" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-8" value="打印机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="880" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="670" as="sourcePoint" />
+            <mxPoint x="760" y="910" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
