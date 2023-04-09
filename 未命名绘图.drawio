@@ -1,16 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T13:06:05.328Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="eXwLfQmoc7l3IheaoXCb" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T13:10:41.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="cS-CGJi9NjPYe68UAEiu" version="21.1.5" type="github">
   <diagram name="第 1 页" id="C2llVJUo4KI2Dm0yCDdT">
     <mxGraphModel dx="1290" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uukWEl7f_I4ybxRxlv5y-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="uukWEl7f_I4ybxRxlv5y-2">
+        <mxCell id="uukWEl7f_I4ybxRxlv5y-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="uukWEl7f_I4ybxRxlv5y-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="550" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EG13G6zJD2KqBIsS3SEV-3" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="480" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Rrx9W-FcOYJj2I2R8BqS-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EG13G6zJD2KqBIsS3SEV-6" target="Rrx9W-FcOYJj2I2R8BqS-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rrx9W-FcOYJj2I2R8BqS-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Rrx9W-FcOYJj2I2R8BqS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="610" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="EG13G6zJD2KqBIsS3SEV-6" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="800" y="485" width="60" height="100" as="geometry" />
@@ -25,7 +33,7 @@
           <mxGeometry x="470" y="550" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EG13G6zJD2KqBIsS3SEV-13" value="安排航班" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="620" width="90" height="60" as="geometry" />
+          <mxGeometry x="660" y="340" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EG13G6zJD2KqBIsS3SEV-14" value="登录用户" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="369" y="430" width="90" height="60" as="geometry" />
@@ -48,7 +56,7 @@
             <mxPoint x="369" y="529.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EG13G6zJD2KqBIsS3SEV-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.949;exitY=0.226;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="EG13G6zJD2KqBIsS3SEV-12" edge="1" source="uukWEl7f_I4ybxRxlv5y-2">
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.949;exitY=0.226;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uukWEl7f_I4ybxRxlv5y-2" target="EG13G6zJD2KqBIsS3SEV-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="610" as="sourcePoint" />
             <mxPoint x="370" y="630" as="targetPoint" />
@@ -60,20 +68,20 @@
         <mxCell id="EG13G6zJD2KqBIsS3SEV-21" value="机票付款" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="730" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EG13G6zJD2KqBIsS3SEV-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.994;exitY=0.329;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="EG13G6zJD2KqBIsS3SEV-20" edge="1" source="uukWEl7f_I4ybxRxlv5y-2">
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.994;exitY=0.329;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uukWEl7f_I4ybxRxlv5y-2" target="EG13G6zJD2KqBIsS3SEV-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="630" as="sourcePoint" />
             <mxPoint x="340" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EG13G6zJD2KqBIsS3SEV-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.971;exitY=0.786;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="EG13G6zJD2KqBIsS3SEV-21" edge="1" source="uukWEl7f_I4ybxRxlv5y-2">
+        <mxCell id="EG13G6zJD2KqBIsS3SEV-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.971;exitY=0.786;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uukWEl7f_I4ybxRxlv5y-2" target="EG13G6zJD2KqBIsS3SEV-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="660" as="sourcePoint" />
             <mxPoint x="310" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EG13G6zJD2KqBIsS3SEV-26" value="注册用户" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="250" width="90" height="60" as="geometry" />
+          <mxGeometry x="620" y="750" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EG13G6zJD2KqBIsS3SEV-27" value="登录系统" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="430" width="90" height="60" as="geometry" />
@@ -125,13 +133,13 @@
         </mxCell>
         <mxCell id="y6OFLw9vU7j-9iI98Z35-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="EG13G6zJD2KqBIsS3SEV-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="490" as="sourcePoint" />
+            <mxPoint x="750" y="720" as="sourcePoint" />
             <mxPoint x="850" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y6OFLw9vU7j-9iI98Z35-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="EG13G6zJD2KqBIsS3SEV-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="600" as="sourcePoint" />
+            <mxPoint x="800" y="510" as="sourcePoint" />
             <mxPoint x="970" y="450" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
@@ -149,61 +157,61 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y6OFLw9vU7j-9iI98Z35-22" value="修改用户信息" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="340" width="90" height="60" as="geometry" />
+          <mxGeometry x="600" y="620" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="y6OFLw9vU7j-9iI98Z35-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="y6OFLw9vU7j-9iI98Z35-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.009;entryY=0.257;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="y6OFLw9vU7j-9iI98Z35-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="510" as="sourcePoint" />
+            <mxPoint x="740" y="650" as="sourcePoint" />
             <mxPoint x="760" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K-e-QyN7yzINLSVWqKfr-1" value="机票退款" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="810" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K-e-QyN7yzINLSVWqKfr-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.777;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="K-e-QyN7yzINLSVWqKfr-1" edge="1" source="uukWEl7f_I4ybxRxlv5y-2">
+        <mxCell id="K-e-QyN7yzINLSVWqKfr-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.777;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="uukWEl7f_I4ybxRxlv5y-2" target="K-e-QyN7yzINLSVWqKfr-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="690" as="sourcePoint" />
             <mxPoint x="360" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kI8QiPe1e6Zq5gu9wakf-1" value="安排航班" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="620" width="90" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="kI8QiPe1e6Zq5gu9wakf-2" value="安排航班" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="710" width="90" height="60" as="geometry" />
+          <mxGeometry x="590" y="690" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kI8QiPe1e6Zq5gu9wakf-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="kI8QiPe1e6Zq5gu9wakf-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="620" as="sourcePoint" />
+            <mxPoint x="750" y="670" as="sourcePoint" />
             <mxPoint x="970" y="540" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kI8QiPe1e6Zq5gu9wakf-4" value="查询用户" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="710" width="90" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="kI8QiPe1e6Zq5gu9wakf-6" value="查询机票" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="800" width="90" height="60" as="geometry" />
+          <mxGeometry x="600" y="810" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kI8QiPe1e6Zq5gu9wakf-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.013;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="kI8QiPe1e6Zq5gu9wakf-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="640" as="sourcePoint" />
+            <mxPoint x="760" y="840" as="sourcePoint" />
             <mxPoint x="760" y="830" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kI8QiPe1e6Zq5gu9wakf-8" value="打印机票" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="880" width="90" height="60" as="geometry" />
+          <mxGeometry x="610" y="900" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kI8QiPe1e6Zq5gu9wakf-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+        <mxCell id="kI8QiPe1e6Zq5gu9wakf-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.004;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="kI8QiPe1e6Zq5gu9wakf-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="670" as="sourcePoint" />
+            <mxPoint x="760" y="860" as="sourcePoint" />
             <mxPoint x="760" y="910" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uukWEl7f_I4ybxRxlv5y-2" value="管理机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="uukWEl7f_I4ybxRxlv5y-2" value="管理机票" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="640" width="94" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rrx9W-FcOYJj2I2R8BqS-1" value="管理用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="650" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rrx9W-FcOYJj2I2R8BqS-3" value="管理机票" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="830" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
