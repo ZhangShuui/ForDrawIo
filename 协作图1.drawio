@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T08:58:48.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="G0spCxZaja1xfqUlQgrq" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T09:01:50.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="XCn0M8L4GUkFy1vN5lIp" version="21.1.5" type="github">
   <diagram name="第 1 页" id="TaYELQ_xXMeW__DOziYw">
     <mxGraphModel dx="522" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -60,13 +60,16 @@
             <mxPoint x="280" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="d96rSbsweA4EqB9IWG7h-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=None;" edge="1" parent="1" source="d96rSbsweA4EqB9IWG7h-13" target="d96rSbsweA4EqB9IWG7h-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d96rSbsweA4EqB9IWG7h-13" value="&lt;b&gt;&lt;u&gt;:UserBoard&lt;/u&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="490" y="290" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d96rSbsweA4EqB9IWG7h-15" value="8. 上传机票信息" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.4" y="11" width="80" relative="1" as="geometry">
-            <mxPoint x="330" y="360" as="sourcePoint" />
-            <mxPoint x="440" y="330" as="targetPoint" />
+            <mxPoint x="330" y="370" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -75,6 +78,22 @@
             <mxPoint x="420" y="240" as="sourcePoint" />
             <mxPoint x="350" y="210" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d96rSbsweA4EqB9IWG7h-20" value="10. 查看行程" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.2603" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="260" as="sourcePoint" />
+            <mxPoint x="400" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d96rSbsweA4EqB9IWG7h-21" value="&lt;b&gt;&lt;u&gt;:BoardController&lt;/u&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="125" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d96rSbsweA4EqB9IWG7h-22" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="270" as="sourcePoint" />
+            <mxPoint x="520" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
