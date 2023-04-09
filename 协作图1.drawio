@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T09:01:50.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="XCn0M8L4GUkFy1vN5lIp" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T09:52:30.938Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="cXl_BImaCn3nhCpVoyL-" version="21.1.5" type="github">
   <diagram name="第 1 页" id="TaYELQ_xXMeW__DOziYw">
     <mxGraphModel dx="522" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d96rSbsweA4EqB9IWG7h-19" value="9.订票成功" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.4483" y="-24" width="80" relative="1" as="geometry">
+        <mxCell id="d96rSbsweA4EqB9IWG7h-19" value="9.订票成功&lt;br&gt;13. 退票成功" style="html=1;verticalAlign=bottom;endArrow=block;elbow=vertical;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.5517" y="-14" width="80" relative="1" as="geometry">
             <mxPoint x="420" y="240" as="sourcePoint" />
             <mxPoint x="350" y="210" as="targetPoint" />
             <mxPoint as="offset" />
@@ -90,10 +90,18 @@
         <mxCell id="d96rSbsweA4EqB9IWG7h-21" value="&lt;b&gt;&lt;u&gt;:BoardController&lt;/u&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="490" y="125" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="d96rSbsweA4EqB9IWG7h-22" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="d96rSbsweA4EqB9IWG7h-22" value="11.退票" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="30" width="80" relative="1" as="geometry">
             <mxPoint x="520" y="270" as="sourcePoint" />
             <mxPoint x="520" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d96rSbsweA4EqB9IWG7h-25" value="12.退票成功" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="40" width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="190" as="sourcePoint" />
+            <mxPoint x="570" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
