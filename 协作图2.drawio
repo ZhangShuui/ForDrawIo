@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T09:55:01.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" version="21.1.5" etag="NNiRpx7PAjxsRPbSxYjN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T10:35:10.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="3rh94JpprQv74ArA3cox" version="21.1.5" type="github">
   <diagram name="第 1 页" id="laEXY1gU0rjFjmdr_obg">
-    <mxGraphModel>
+    <mxGraphModel dx="522" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-1" value="&lt;b&gt;&lt;u&gt;:Stuff&lt;/u&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=None;" edge="1" parent="1" source="GFeclkJGBXR1VO8ldMLh-3" target="GFeclkJGBXR1VO8ldMLh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-3" value="&lt;b&gt;&lt;u&gt;:LoginSys&lt;/u&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="190" y="185" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-4" value="2.注册成功&lt;br&gt;4.登录成功" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="190" as="sourcePoint" />
+            <mxPoint x="400" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-5" value="1.注册信息&lt;br&gt;3. 登录" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="40" width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="230" as="sourcePoint" />
+            <mxPoint x="320" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=None;" edge="1" parent="1" source="GFeclkJGBXR1VO8ldMLh-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="310" />
+              <mxPoint x="435" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-7" value="&lt;b&gt;&lt;u&gt;:FlightController&lt;/u&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-8" value="5.查看航班信息&lt;br&gt;7.增删改航班信息" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.2" y="-50" width="80" relative="1" as="geometry">
+            <mxPoint x="410" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GFeclkJGBXR1VO8ldMLh-9" value="6.显示信息&lt;br&gt;8.增删改成功" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.2" y="-40" width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="390" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
